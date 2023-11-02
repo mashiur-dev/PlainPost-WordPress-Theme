@@ -1,0 +1,12 @@
+[.] Set Heading sizes
+[.] Set Font sizes
+[.] Set Background Color
+[.] Set Text Color
+[.] Set Link Color
+[.] Develop Header
+[.] Develop Footer
+[] Develop Index
+[] Develop Single
+[] Develop Page
+[] Develop Archive
+
