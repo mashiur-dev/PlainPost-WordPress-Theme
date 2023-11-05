@@ -239,7 +239,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--mona-sans)"
+			"fontFamily": "var(--wp--preset--font-family--mona-sans)",
+			"lineHeight": "1.5"
 		}
 	},
 	"templateParts": [
