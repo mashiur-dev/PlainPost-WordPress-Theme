@@ -13,5 +13,15 @@
 
 Videos: 
 https://www.youtube.com/watch?v=sYHYTk0jeE8
-https://www.youtube.com/watch?v=v00m1PaRaJ0
 https://www.youtube.com/watch?list=PLriKzYyLb28lHhftzU7Z_DJ32mvLy4KKH&index=6
+
+
+# Do not include:
+https://make.wordpress.org/themes/handbook/review/required/#5-functionality-and-features
+Custom post types
+Custom blocks
+Custom roles
+Custom user contact methods
+Custom mime types
+Shortcodes
+Functionality that is not related to design and presentation

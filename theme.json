@@ -14,18 +14,18 @@
 			"palette": [
 				{
 					"color": "#D6A692",
-					"name": "BlogX Brown",
-					"slug": "blogx-brown"
+					"name": "Plain Post Brown",
+					"slug": "plainpost-brown"
 				},
 				{
 					"color": "#292522",
-					"name": "BlogX Black",
-					"slug": "blogx-black"
+					"name": "Plain Post Black",
+					"slug": "plainpost-black"
 				},
 				{
 					"color": "#322E2A",
-					"name": "BlogX Lite Black",
-					"slug": "blogx-lite-black"
+					"name": "Plain Post Lite Black",
+					"slug": "plainpost-lite-black"
 				}
 			],
 			"text": true
@@ -81,7 +81,8 @@
 							]
 						}
 					],
-					"fontFamily": "Mona Sans",
+					"fontFamily": "\"Mona Sans\", sans-serif",
+					"name": "Mona Sans",
 					"slug": "mona-sans"
 				}
 			],
@@ -161,12 +162,12 @@
 	"styles": {
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--blogx-black)"
+			"text": "var(--wp--preset--color--plainpost-black)"
 		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--blogx-black)"
+					"background": "var(--wp--preset--color--plainpost-black)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--mona-sans)",
@@ -217,7 +218,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--blogx-black)"
+					"text": "var(--wp--preset--color--plainpost-black)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--mona-sans)",
@@ -227,11 +228,11 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--blogx-brown)"
+						"text": "var(--wp--preset--color--plainpost-brown)"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--blogx-black)"
+					"text": "var(--wp--preset--color--plainpost-black)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--mona-sans)"
@@ -254,5 +255,5 @@
 		}
 	],
 	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
 }

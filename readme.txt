@@ -1,14 +1,14 @@
-=== BlogX ===
-Contributors: Mashiurz
+=== Plain Post ===
+Contributors: mashiurz
 Requires at least: 6.0
 Tested up to: 6.3.2
-Requires PHP: 5.7
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A simple and minimal blog theme with full site edit support
+Plain Post is a minimalist and clean WordPress theme designed for bloggers and content creators. Built with full site editing support, it empowers users to create and manage their blog website effortlessly through the Full Site Editor and Gutenberg blocks.
 
 == Changelog ==
 
@@ -17,8 +17,8 @@ A simple and minimal blog theme with full site edit support
 
 == Copyright ==
 
-BlogX WordPress Theme, (C) 2023 Mashiurz
-BlogX is distributed under the terms of the GNU GPL.
+Plain Post WordPress Theme, (C) 2023 mashiurz.com
+Plain Post is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -32,6 +32,3 @@ GNU General Public License for more details.
 
 Mona Sans Font
 Copyright © 2017 by Deni Anggara. All rights reserved. 
-  
-Source: www.github.com
--- End of Mona Sans Font credits --
