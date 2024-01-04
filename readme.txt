@@ -1,7 +1,7 @@
 === Plain Post ===
 Contributors: mashiurz
 Requires at least: 6.0
-Tested up to: 6.3.2
+Tested up to: 6.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -15,20 +15,25 @@ Plain Post is a minimalist and clean WordPress theme designed for bloggers and c
 = 1.0.0 =
 * Initial release
 
+= 1.0.1 =
+* Minor Update
+
 == Copyright ==
 
-Plain Post WordPress Theme, (C) 2023 mashiurz.com
-Plain Post is distributed under the terms of the GNU GPL.
+"Plain Post" WordPress Theme, (C) 2023 mashiurz.com
+"Plain Post" is distributed under the terms of the GNU GPL.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
+== Credits ==
+== Resources ==
+Theme logo, Icons are created by our own.
+License: GPL v2 or later
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+Fonts credit and license:
 
-Mona Sans Font
-Copyright © 2017 by Deni Anggara. All rights reserved. 
+font: Mona Sans,
+Copyright (c) 2023, GitHub https://github.com/github/mona-sans
+with Reserved Font Name "Mona Sans"
+License: http://scripts.sil.org/OFL
+Source: https://github.com/github/mona-sans
+
+

@@ -25,3 +25,5 @@ Custom user contact methods
 Custom mime types
 Shortcodes
 Functionality that is not related to design and presentation
+
+https://themes.trac.wordpress.org/ticket/157165

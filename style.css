@@ -1,16 +1,17 @@
 /*
 Theme Name: Plain Post
-Theme URI: https://plainpost.mashiurz.com
-Author: Mashiurz
+Theme URI: https://mashiurz.com/themes/plain-post-wordpress-theme
+Author: mashiurz.com
 Author URI: https://mashiurz.com
-Description: A simple and minimal blog theme with full site edit support
+Description: Plain Post is a minimalist and clean WordPress theme designed for bloggers and content creators. Built with full site editing support, it empowers users to create and manage their blog website effortlessly through the Full Site Editor and Gutenberg blocks.
 Requires at least: 6.0
-Tested up to: 6.3.2
+Tested up to: 6.3
 Requires PHP: 5.7
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: plainpost
-Tags: blog, full-site-editing, 
+Text Domain: plain-post
+Tags: blog, full-site-editing, custom-colors, custom-menu, custom-logo, editor-style,
+featured-images, block-patterns, threaded-comments, translation-ready, wide-blocks, block-styles,accessibility-ready, blog, portfolio, news
 */
 

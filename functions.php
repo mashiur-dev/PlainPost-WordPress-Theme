@@ -54,7 +54,7 @@ function plainpost_register_pattern_categories()
 {
     register_block_pattern_category(
         'plainpost-patterns',
-        array('label' => __('Plain Post Patterns', 'plainpost'))
+        array('label' => __('Plain Post Patterns', 'plain-post'))
     );
 }
 add_action('init', 'plainpost_register_pattern_categories');
