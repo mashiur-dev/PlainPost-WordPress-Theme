@@ -42,7 +42,9 @@ if (!function_exists("plainpost_enqueue_scripts")) {
         wp_localize_script("plainpost-main", "plainpost_author_info", [
             'authorName' => get_the_author(),
             'authorPhoto' => get_avatar_url(get_the_author_meta('ID'), 100),
+            'postUrl' => get_the_permalink(),
         ]);
+
     }
 }
 add_action("wp_enqueue_scripts", "plainpost_enqueue_scripts");
@@ -89,6 +91,12 @@ if (!function_exists('plainpost_rewrite_archive_page_title')) {
     }
 }
 add_filter('get_the_archive_title', 'plainpost_rewrite_archive_page_title');
+
+/** 
+ * Functionalities for single post page
+ */
+require_once dirname(__FILE__) . '/inc/functions-single-post.php';
+
 
 
 /** 

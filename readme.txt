@@ -25,8 +25,11 @@ Plain Post is a minimalist and clean WordPress theme designed for bloggers and c
 
 == Credits ==
 == Resources ==
-Theme logo, Icons are created by our own.
+Theme logo, Screenshot, Icons are created by our own.
 License: GPL v2 or later
+
+Image for theme screenshot
+License : CC0 1.0 Universal (CC0 1.0)
 
 Fonts credit and license:
 
