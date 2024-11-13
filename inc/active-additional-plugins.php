@@ -71,8 +71,8 @@ function plainpost_ocdi_import_files()
     return [
         [
             'import_file_name' => __('Theme DEMO', 'plain-post'),
-            'import_file_url' => 'https://plainpost.mashiurz.com/additional-assets/demo_plainpost.mashiurz.com.xml',
-            'import_preview_image_url' => 'https://plainpost.mashiurz.com/additional-assets/screenshot.png',
+            'import_file_url' => 'https://mashiur-dev.github.io/PlainPost-WordPress-Theme/demo-assets/demo_plainpost.mashiurz.com.xml',
+            'import_preview_image_url' => 'https://mashiur-dev.github.io/PlainPost-WordPress-Theme/demo-assets/screenshot.png',
             'preview_url' => 'http://plainpost.mashiurz.com',
         ],
     ];
@@ -84,9 +84,9 @@ function ocdi_plugin_intro_text($default_text)
 {
     //is-dismissible
     $default_text .= '<div class="notice notice-warning ">
-                <p style="font-size: 18px;">To fully experience the capabilities of this theme, kindly install the custom plugin exclusively designed for the Plain Post before initiating the demo import.</p>
+                <p style="font-size: 18px;">To get the full demo experience, please install the custom plugin designed for the Plain Post theme before starting the demo import. Click on "Download Now!" and install it by navigating to Plugins > <a href="/wp-admin/plugin-install.php?tab=upload" target="_blank">Add New</a> in your WordPress dashboard, then activate it to match the demo setup.</p>
                 <p class="ocdi__button-container">
-                    <a target="_blank" class="ocdi__button  button  button-hero  button-primary" href="https://plainpost.mashiurz.com/additional-assets/plainpost-features.zip">Download Now!</a>
+                    <a target="_blank" class="ocdi__button  button  button-hero  button-primary" href="https://mashiur-dev.github.io/PlainPost-WordPress-Theme/demo-assets/plainpost-features.zip">Download Now!</a>
                 </p>
             </div>';
 
