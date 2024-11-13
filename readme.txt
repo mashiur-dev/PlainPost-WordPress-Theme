@@ -15,8 +15,12 @@ Plain Post is a minimalist and clean WordPress theme designed for bloggers and c
 = 1.0.0 =
 * Initial release
 
-= 1.0.1 =
+= 1.0.3 =
 * Minor Update
+
+= 1.0.4 =
+* Fixed XSS vulnerability in author-info.
+* Enhanced security and code performance.
 
 == Copyright ==
 
@@ -28,8 +32,25 @@ Plain Post is a minimalist and clean WordPress theme designed for bloggers and c
 Theme logo, Screenshot, Icons are created by our own.
 License: GPL v2 or later
 
-Image for theme screenshot
-License : CC0 1.0 Universal (CC0 1.0)
+* Screenshot Image, Copyright Pxhere
+  License: CC0 1.0 Universal (CC0 1.0)
+  Source: https://pxhere.com/en/photo/109942
+
+* Screenshot Image, Copyright Pxhere
+  License: CC0 1.0 Universal (CC0 1.0)
+  Source: https://pxhere.com/en/photo/1409342
+
+* Screenshot Image, Copyright Pxhere
+  License: CC0 1.0 Universal (CC0 1.0)
+  Source: https://pxhere.com/en/photo/1271196
+
+* Screenshot Image, Copyright Pxhere
+  License: CC0 1.0 Universal (CC0 1.0)
+  Source: https://pxhere.com/en/photo/1575625
+
+* Screenshot Image, Copyright Pxhere
+  License: CC0 1.0 Universal (CC0 1.0)
+  Source: https://pxhere.com/en/photo/646920
 
 Fonts credit and license:
 

@@ -42,13 +42,16 @@ if (page.classList.contains("single-post")) {
  */
 
 if (page.classList.contains("author")) {
-  let authorInfo = document.getElementsByClassName("author-info");
+    let authorInfo = document.getElementsByClassName("author-info")[0];
 
-  authorInfo[0].innerHTML =
-    '<img alt="' +
-    plainpost_author_info.authorName +
-    '" class="author_photo" src="' +
-    plainpost_author_info.authorPhoto +
-    '" />' +
-    authorInfo[0].innerHTML;
+    // Create the img element separately to avoid using innerHTML
+    const authorPhoto = document.createElement("img");
+  
+    authorPhoto.alt = plainpost_author_info.authorName;
+    authorPhoto.className = "author_photo";
+    authorPhoto.src = plainpost_author_info.authorPhoto;
+
+    // Append the img element as the first child of the authorInfo container
+    authorInfo.prepend(authorPhoto);
 }
+

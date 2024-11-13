@@ -40,9 +40,9 @@ if (!function_exists("plainpost_enqueue_scripts")) {
         );
 
         wp_localize_script("plainpost-main", "plainpost_author_info", [
-            'authorName' => get_the_author(),
-            'authorPhoto' => get_avatar_url(get_the_author_meta('ID'), 100),
-            'postUrl' => get_the_permalink(),
+            'authorName' => esc_html(get_the_author()),
+            'authorPhoto' => esc_url(get_avatar_url(get_the_author_meta('ID'), ['size' => 100])),
+            'postUrl' => esc_url(get_the_permalink()),
         ]);
 
     }
@@ -67,30 +67,20 @@ add_action('init', 'plainpost_register_pattern_categories');
  */
 
 if (!function_exists('plainpost_rewrite_archive_page_title')) {
-    function plainpost_rewrite_archive_page_title( $title ) {
+    function plainpost_rewrite_archive_page_title($title)
+    {
 
-        if ( is_category() ) {
-
+        if (is_category() || is_tag() || is_author()) {
             $post_text = $GLOBALS['wp_query']->post_count > 1 ? 'Posts' : 'Post';
-            $title = $title . "<span class='archive-post-count'>{$GLOBALS['wp_query']->post_count} $post_text</span>";
-
-        } elseif ( is_tag() ) {
-
-            $post_text = $GLOBALS['wp_query']->post_count > 1 ? 'Posts' : 'Post';
-            $title = $title . "<span class='archive-post-count'>{$GLOBALS['wp_query']->post_count} $post_text</span>";
-
-        } elseif ( is_author() ) {
-
-            $post_text = $GLOBALS['wp_query']->post_count > 1 ? 'Posts' : 'Post';
-            $title = $title . "<span class='archive-post-count'>{$GLOBALS['wp_query']->post_count} $post_text</span>";
-
+            $post_count = intval($GLOBALS['wp_query']->post_count); // Sanitize post count
+            $title = esc_html($title) . "<span class='archive-post-count'>" . esc_html($post_count) . " " . esc_html($post_text) . "</span>";
         }
 
         return $title;
-
     }
 }
 add_filter('get_the_archive_title', 'plainpost_rewrite_archive_page_title');
+
 
 /** 
  * Functionalities for single post page
